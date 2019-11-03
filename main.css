@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+===============================================
+Student Name: Shubham Joshi
+Solution for Assignment  for adding class record
+===============================================
+-->
+
+body {
+  background-color: #f7c705;
+}
+nav {
+border: 1px;
+background-color: #f7c705;
+color:white;
+padding:20px;
+font-size: 30px;
+}
+
+h1 {
+  color: #050f69;
+  text-align: left-side;
+  font-family: calibri;
+  font-size: 40px;
+}
+
+
+p {
+  font-family: calibri;
+  font-size: 20px;
+  color: maroon;
+  text-align: center;
+}
+
+tdhedr {
+width : 70px;
+
+
+}
