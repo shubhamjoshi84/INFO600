@@ -1,6 +1,22 @@
+<!DOCTYPE html>
+<!--
+===============================================
+Student Name: Shubham Joshi
+Solution for Assignment  for adding class record
+===============================================
+-->
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>Student Recod Management</title>	
+	<link rel="stylesheet" href="css/main.css">
+	<script type = "text/javascript" src="js/main.js"></script>
+</head>	
+	
+<body>
 
-
-		<form name	= "stdnt_rec_mng" method="post">
+		<form name	= "myform" method="post">
 			
 			<h1>Student Record Management</h1>
 			<p>
@@ -14,30 +30,17 @@
 							<td><input type = "text" id = "major" size ="20"/> </td>
 							<td class = "tdhedr">Year</td>
 							<td><input type = "text" id = "year" size ="15" /></td>
-							<td><button type = "button" id = "add_rec" onclick = addRec()>Add Record</button> </td>
+							<td><button type = "button" id = "addRec" onclick = addRecds()>Add Record</button> </td>
 						
 						</tr>
-					
-						<tr>
-							
-							<td colspan = "7"><br><br><br><h2>Entered Records</h2></td>
-							
-						
-						</tr>
-						
 					</table>
-					
-					
-					
-
-								
+					<div id = "records">
+					<table id = "enteredRecords">
+						<tr>
+							<td colspan = "7"><br><br><br><h2>Entered Records</h2></td>
+						</tr>
+					</div>
+					</table>
 			</p> <br><br>
-			
-
-			
-				
-							
-			
-	
 </body>
 </html>	
