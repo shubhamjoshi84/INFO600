@@ -22,4 +22,5 @@ function addRecds(){
 	
 	} else 
 		alert ("Incorrect year:" + stdyr);
+		document.getElementById("year").value = "";	
 }
